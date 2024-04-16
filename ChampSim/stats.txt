@@ -1,8 +1,8 @@
 ---------------------------------------
 Begin Slurm Prolog: Apr-04-2023 01:47:21
 Job ID:    1527775
-User ID:   asaxena317
-Account:   gts-mqureshi4
+User ID:   XXXX
+Account:   gts-XXXX
 Job name:  16C_base_DDR
 Partition: cpu-small
 QOS:       inferno

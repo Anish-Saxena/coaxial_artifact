@@ -17,7 +17,7 @@
 #include <vector>
 VirtualMemory vmem(274877906944, 1 << 12, 5, 1, 200);
 
-DRAMSim3_DRAM DRAM(1.0, "/storage/home/hcoda1/4/asaxena317/p-mqureshi4-0/hybrid_cxl_memsys/ChampSim/dramsim3_ini/DDR5_32GB_8ch_4800.ini", "./");
+DRAMSim3_DRAM DRAM(1.0, "/storage/home/hcoda1/4/XXXX/p-XXXX-0/hybrid_cxl_memsys/ChampSim/dramsim3_ini/DDR5_32GB_8ch_4800.ini", "./");
 CXL_MEMORY CXL("CXL_4X_24ns", 1.0, 12, &DRAM);
 CACHE LLC("LLC", 1.0, 6, 65536, 6, 1024, 1024, 1024, 4096, 29, 1, 64, 64, LOG2_BLOCK_SIZE, 0, 0, 0, 5, &CXL, CACHE::pref_t::pprefetcherDno, CACHE::repl_t::rreplacementDsrrip);
 CACHE cpu0_L2C("cpu0_L2C", 1.0, 5, 1024, 8, 32, 32, 16, 128, 9, 1, 1, 1, LOG2_BLOCK_SIZE, 0, 0, 0, 5, &LLC, CACHE::pref_t::pprefetcherDip_stride, CACHE::repl_t::rreplacementDlru);

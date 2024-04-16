@@ -4,7 +4,7 @@ CFLAGS := -Wall -O3 -std=gnu99 -g
 CXXFLAGS := -Wall -O3 -std=c++17 -g
 CPPFLAGS :=  -Iinc -MMD -MP -g
 LDFLAGS := 
-LDLIBS := -L/storage/home/hcoda1/4/asaxena317/p-mqureshi4-0/hybrid_cxl_memsys/DRAMsim3 -ldramsim3
+LDLIBS := -L/storage/home/hcoda1/4/XXXX/p-XXXX-0/hybrid_cxl_memsys/DRAMsim3 -ldramsim3
 
 .phony: all clean
 
