@@ -7,7 +7,7 @@
     "CXL_MODE": 1,
     "PAM_MODE": 3, 
     "PAM_TH": 70,
-    "LDLIBS": "-L/storage/home/hcoda1/4/asaxena317/p-mqureshi4-0/hybrid_cxl_memsys/DRAMsim3 -ldramsim3",
+    "LDLIBS": "-L/storage/home/hcoda1/4/XXXX/p-XXXX-0/hybrid_cxl_memsys/DRAMsim3 -ldramsim3",
     "ooo_cpu": [
         {
             "frequency": 2400,
@@ -439,7 +439,7 @@
     },
 
     "physical_memory": {
-        "dramsim3_config": "/storage/home/hcoda1/4/asaxena317/p-mqureshi4-0/hybrid_cxl_memsys/ChampSim/dramsim3_ini/DDR5_128GB_4ch_32GBDIMM_4800.ini",
+        "dramsim3_config": "/storage/home/hcoda1/4/XXXX/p-XXXX-0/hybrid_cxl_memsys/ChampSim/dramsim3_ini/DDR5_128GB_4ch_32GBDIMM_4800.ini",
         "frequency": 2400,
         "channels": 8,
         "ranks": 2,
