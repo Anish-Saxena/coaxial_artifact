@@ -1,0 +1,2 @@
+DRAMSim3_DRAM DRAM(1.25, "/storage/home/hcoda1/4/asaxena317/p-mqureshi4-0/hybrid_cxl_memsys/DRAMsim3/configs/DDR4_8Gb_x8_3200_system.ini", 
+                    "/storage/home/hcoda1/4/asaxena317/scratch/cxl/coaxial/results/dramsimout/");

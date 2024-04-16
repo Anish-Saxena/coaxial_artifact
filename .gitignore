@@ -1,8 +1,13 @@
 collab_with_lisa/
 on_web/
+ChampSim/.git/
+ChampSim/.github/
+ChampSim/.gitignore
 ChampSim/bin/**
 ChampSim/failed_runs/
 ChampSim/old_stuff/
+Pythia/.git/
+Pythia/.gitignore
 Pythia/bin/
 Pythia/branch/
 Pythia/config/
@@ -17,6 +22,9 @@ Pythia/experiments/tests/**
 Pythia/experiments/old_experiments/**
 Pythia/experiments/extras/**
 Pythia/16C_40Mn_Sim/
+DRAMsim3/.git/
+DRAMsim3/.gitignore
+DRAMsim3/.gitmodules
 *.out
 *.err
 *.xz
