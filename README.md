@@ -64,3 +64,13 @@ ChampSim measures the IPC (Instruction Per Cycle) value as a performance metric.
 There are some other useful metrics printed out at the end of simulation. <br>
 
 Good luck and be a champion! <br>
+
+# DRAMSim3 setup
+
+Follow build instruction from official DRAMSim3 - https://github.com/umd-memsys/DRAMsim3
+Update the path to DRAMSim library and the ini files in config.py
+
+# Processing the runs and plotting
+
+Processing and plotting scripts can be found in ChampSim/SCRIPTS/ Use the scripts in 'PROC_SCRIPTS' to collect the data and populate a csv file that looks like
+the inlcuded example_plot_input.csv. Use the plotting scripts in PLOTTING_SCRIPTS with the csv file as input to generate the plots.
