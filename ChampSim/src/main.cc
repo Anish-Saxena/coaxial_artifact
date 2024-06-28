@@ -27,7 +27,7 @@
 #include "cache.h"
 #include "champsim.h"
 #include "champsim_constants.h"
-// #include "cxl_memory.h"
+#include "cxl_memory.h"
 #include "dramsim3_wrapper.hpp"
 #include "ooo_cpu.h"
 #include "operable.h"
@@ -45,8 +45,8 @@ auto start_time = time(NULL);
 champsim::deprecated_clock_cycle current_core_cycle;
 
 // extern MEMORY_CONTROLLER DRAM;
+extern CXL_MEMORY CXL;
 extern DRAMSim3_DRAM DRAM;
-// extern CXL_MEMORY CXL;
 extern VirtualMemory vmem;
 extern std::array<O3_CPU*, NUM_CPUS> ooo_cpu;
 extern std::array<CACHE*, NUM_CACHES> caches;
@@ -365,7 +365,7 @@ void finish_warmup()
   }
   cout << endl;
   DRAM.ResetStats();
-  // CXL.ResetStats();
+  CXL.ResetStats();
 }
 
 void signal_handler(int signal)
@@ -596,7 +596,7 @@ int main(int argc, char** argv)
 
 #ifndef CRC2_COMPILE
   // print_dram_stats();
-  // CXL.PrintStats();
+  CXL.PrintStats();
   DRAM.PrintStats();
   print_branch_stats();
 #endif

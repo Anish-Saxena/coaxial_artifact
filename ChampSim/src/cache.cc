@@ -23,7 +23,8 @@
 #include "champsim_constants.h"
 #include "util.h"
 #include "vmem.h"
-// #include "cxl_memory.h"
+#include "cxl_memory.h"
+#include "dramsim3_wrapper.hpp"
 
 #include <chrono>
 
@@ -33,7 +34,8 @@
 
 extern VirtualMemory vmem;
 extern uint8_t warmup_complete[NUM_CPUS];
-// extern CXL_MEMORY CXL;
+extern CXL_MEMORY CXL;
+extern DRAMSim3_DRAM DRAM;
 extern bool L2_PA;
 extern uint64_t L2_PA_ratio;
 extern uint64_t on_chip_icn_hops[NUM_CPUS+1][NUM_CPUS+1];
@@ -368,8 +370,8 @@ bool CACHE::readlike_miss(PACKET& handle_pkt)
       uint64_t folded_addr = fold_addr(handle_pkt.ip);
       bool do_pam = check_pam_pc_counter(folded_addr);
       if(do_pam){
-        if(((CACHE *)lower_level)->lower_level->get_occupancy(queue_type, handle_pkt.address) == ((CACHE *)lower_level)->lower_level->get_size(queue_type, handle_pkt.address))
-        // if (CXL.get_occupancy(queue_type, handle_pkt.address) == CXL.get_size(queue_type, handle_pkt.address))
+        if (CXL.get_occupancy(queue_type, handle_pkt.address) == CXL.get_size(queue_type, handle_pkt.address))
+        //if (DRAM.get_occupancy(queue_type, handle_pkt.address) == DRAM.get_size(queue_type, handle_pkt.address))
           {return false;}
         handle_pkt.l2_parallel_access=true;
         if(warmup_complete[handle_pkt.cpu]){
@@ -391,8 +393,8 @@ bool CACHE::readlike_miss(PACKET& handle_pkt)
       #if ALLOW_PAM==PAM_IDEAL_PREDICTOR
       bool inLLC = ((CACHE *) lower_level)->probe_entry(handle_pkt.address);
       if(!inLLC){
-        if(((CACHE *)lower_level)->lower_level->get_occupancy(queue_type, handle_pkt.address) == ((CACHE *)lower_level)->lower_level->get_size(queue_type, handle_pkt.address))
-        // if (CXL.get_occupancy(queue_type, handle_pkt.address) == CXL.get_size(queue_type, handle_pkt.address))
+        if (CXL.get_occupancy(queue_type, handle_pkt.address) == CXL.get_size(queue_type, handle_pkt.address))
+        //if (DRAM.get_occupancy(queue_type, handle_pkt.address) == DRAM.get_size(queue_type, handle_pkt.address))
           {return false;}
         handle_pkt.l2_parallel_access=true;
         if(warmup_complete[handle_pkt.cpu]){
@@ -407,8 +409,8 @@ bool CACHE::readlike_miss(PACKET& handle_pkt)
         //if(inLLC){
         uint64_t randval = rand() % 100;
         if(randval < L2_PA_ratio){
-          if(((CACHE *)lower_level)->lower_level->get_occupancy(queue_type, handle_pkt.address) == ((CACHE *)lower_level)->lower_level->get_size(queue_type, handle_pkt.address))
-          // if (CXL.get_occupancy(queue_type, handle_pkt.address) == CXL.get_size(queue_type, handle_pkt.address))
+          if (CXL.get_occupancy(queue_type, handle_pkt.address) == CXL.get_size(queue_type, handle_pkt.address))
+          //if (DRAM.get_occupancy(queue_type, handle_pkt.address) == DRAM.get_size(queue_type, handle_pkt.address))
             {return false;}
           handle_pkt.l2_parallel_access=true;
           if(warmup_complete[handle_pkt.cpu]){
@@ -493,44 +495,17 @@ bool CACHE::readlike_miss(PACKET& handle_pkt)
       if(handle_pkt.l2_parallel_access){//this should have been decided earlier
         if (handle_pkt.fill_level <= fill_level){handle_pkt.to_return.push_back((CACHE*)lower_level);}
         if (!is_read){
-          ((CACHE *)lower_level)->lower_level->add_pq(&handle_pkt);
-          // CXL.add_pq(&handle_pkt);
+          CXL.add_pq(&handle_pkt);
+          //DRAM.add_pq(&handle_pkt);
         }
         else{
-          ((CACHE *)lower_level)->lower_level->add_rq(&handle_pkt);
-          // CXL.add_rq(&handle_pkt);
+          CXL.add_rq(&handle_pkt);
+          //DRAM.add_rq(&handle_pkt);
         }
         //cout<<"add_rq'd to mem as PAM, count @"<<NAME<<": "<<PAM_count_per_l2c<<", false_positive: "<<PAM_false_positive<<", false_negative: "<<PAM_false_negative<<endl;
       }
 
-      // //TODO fill these out for l2_pa condition
-      // #if ALLOW_PAM==PAM_PC_COUNTER
-      // if(handle_pkt.l2_parallel_access){//this should have been decided earlier
-      //   if (handle_pkt.fill_level <= fill_level){handle_pkt.to_return.push_back((CACHE*)lower_level);}
-      //   if (!is_read){
-      //     CXL.add_pq(&handle_pkt);
-      //   }
-      //   else{
-      //     CXL.add_rq(&handle_pkt);
-      //   }
-      // }
-      // #endif
-      // #if ALLOW_PAM==PAM_IDEAL_PREDICTOR
-      // #endif
-      // #if ALLOW_PAM==PAM_STATIC_THRESHOLD
-      // if(L2_PA){
-      //   //set pkt field l2_parallel_access and add_rq/pq to CXL
-      //   //TODO - since add_pq takes pointers, maybe I need to make new copies of the packets? might have to look into this if things break
-      //   if (handle_pkt.fill_level <= fill_level){handle_pkt.to_return.push_back((CACHE*)lower_level);}
-      //   handle_pkt.l2_parallel_access=true;
-      //   if (!is_read){
-      //     CXL.add_pq(&handle_pkt);
-      //   }
-      //   else{
-      //     CXL.add_rq(&handle_pkt);
-      //   }
-      // }
-      // #endif
+
     }
     // auto end4 = std::chrono::high_resolution_clock::now();
     // auto duration4 = std::chrono::duration_cast<std::chrono::nanoseconds>(end4 - start4);
@@ -1064,10 +1039,23 @@ void CACHE::return_data(PACKET* packet)
           auto llc_er_duplicate_check = std::find_if(LLC_early_returned.begin(), LLC_early_returned.end(), eq_addr<PACKET>(packet->address, OFFSET_BITS));
           if(llc_er_duplicate_check!=LLC_early_returned.end()){
             cout<<"in inserting LLC_early_returned - found duplicate, cursize: "<<LLC_early_returned.size()<<endl;
+			cout<<"Addresses: "<<packet->address<<", cpu: "<<packet->cpu<<", type: "<<packet->type<<endl;
           }
+		  else{
+			  packet->cycle_enqueued=current_cycle;
+			  LLC_early_returned.insert(std::end(LLC_early_returned), *packet);
+		  }
           ///
           LLC_early_ret_count++;
-          LLC_early_returned.insert(std::end(LLC_early_returned), *packet);
+		  if (LLC_early_returned.size() > 200) {
+		      // Remove the first 100 elements
+		      for (int i = 0; i < 190; ++i) {
+				  if(LLC_early_returned.front().cycle_enqueued < current_cycle-10000){
+			          LLC_early_returned.pop_front();
+				  }
+				  else{break;}
+		      }
+		  }
           //cout<<"Inserted to LLC_early_returned"<<endl;
         }
         else{
@@ -1092,6 +1080,8 @@ void CACHE::return_data(PACKET* packet)
     std::cerr << " v_address: " << packet->v_address;
     std::cerr << " address: " << (packet->address >> OFFSET_BITS) << std::dec;
     std::cerr << " event: " << packet->event_cycle << " current: " << current_cycle << std::endl;
+    //assert(0);
+    //WA - see if we can just go on without this..
     return;
   }
 

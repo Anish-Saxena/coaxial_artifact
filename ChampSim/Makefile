@@ -4,11 +4,11 @@ CFLAGS := -Wall -O3 -std=gnu99 -g
 CXXFLAGS := -Wall -O3 -std=c++17 -g
 CPPFLAGS :=  -Iinc -MMD -MP -g
 LDFLAGS := 
-LDLIBS := -L/storage/home/hcoda1/4/XXXX/p-XXXX-0/hybrid_cxl_memsys/DRAMsim3 -ldramsim3
+LDLIBS := -L/nethome/acho44/coaxial_AE_DL/DRAMsim3 -ldramsim3
 
 .phony: all clean
 
-all: bin/NOPAM_NOC_DELAY/8C_base_DDR_nopam
+all: bin/PAM_MODE_TEST/12C_4X_CXL_50ns_1MBLLC_TH70
 
 clean: 
 	$(RM) inc/champsim_constants.h
@@ -34,7 +34,7 @@ clean:
 	 find btb/basic_btb -name \*.o -delete
 	 find btb/basic_btb -name \*.d -delete
 
-bin/NOPAM_NOC_DELAY/8C_base_DDR_nopam: $(patsubst %.cc,%.o,$(wildcard src/*.cc)) obj/repl_rreplacementDsrrip.a obj/pref_pprefetcherDno.a obj/repl_rreplacementDlru.a obj/pref_pprefetcherDnext_line_instr.a obj/pref_pprefetcherDip_stride.a obj/bpred_bbranchDhashed_perceptron.a obj/btb_bbtbDbasic_btb.a
+bin/PAM_MODE_TEST/12C_4X_CXL_50ns_1MBLLC_TH70: $(patsubst %.cc,%.o,$(wildcard src/*.cc)) obj/repl_rreplacementDsrrip.a obj/pref_pprefetcherDno.a obj/repl_rreplacementDlru.a obj/pref_pprefetcherDnext_line_instr.a obj/pref_pprefetcherDip_stride.a obj/bpred_bbranchDhashed_perceptron.a obj/btb_bbtbDbasic_btb.a
 	$(CXX) $(LDFLAGS) -o $@ $^ $(LDLIBS)
 
 replacement/srrip/%.o: CFLAGS += -Ireplacement/srrip

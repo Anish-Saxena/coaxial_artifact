@@ -41,8 +41,8 @@ ptw_fmtstr = 'PageTableWalker {name}("{name}", {cpu}, {fill_level}, {pscl5_set},
 cpu_fmtstr = 'O3_CPU {name}({index}, {frequency}, {DIB[sets]}, {DIB[ways]}, {DIB[window_size]}, {ifetch_buffer_size}, {dispatch_buffer_size}, {decode_buffer_size}, {rob_size}, {lq_size}, {sq_size}, {fetch_width}, {decode_width}, {dispatch_width}, {scheduler_size}, {execute_width}, {lq_width}, {sq_width}, {retire_width}, {mispredict_penalty}, {decode_latency}, {dispatch_latency}, {schedule_latency}, {execute_latency}, &{ITLB}, &{DTLB}, &{L1I}, &{L1D}, O3_CPU::bpred_t::{bpred_name}, O3_CPU::btb_t::{btb_name}, O3_CPU::ipref_t::{iprefetcher_name});\n'
 
 pmem_orig_fmtstr = 'MEMORY_CONTROLLER {attrs[name]}({attrs[frequency]});\n'
-#pmem_fmtstr = 'DRAMSim3_DRAM DRAM(2.5, "/nethome/XXXX/DRAMsim3/configs/DDR4_8Gb_x8_3200.ini", "/nethome/XXXX/coaxial/drasimout/");\n'
-# pmem_fmtstr = 'DRAMSim3_DRAM DRAM({attrs[frequency]}, "/nethome/XXXX/coaxial/coaxial_cxl_memsys/dramsim3_ini/DDR5_32GB_2ch_4800.ini", "./");\n'
+#pmem_fmtstr = 'DRAMSim3_DRAM DRAM(2.5, "/nethome/acho44/DRAMsim3/configs/DDR4_8Gb_x8_3200.ini", "/nethome/acho44/coaxial/drasimout/");\n'
+# pmem_fmtstr = 'DRAMSim3_DRAM DRAM({attrs[frequency]}, "/nethome/acho44/coaxial/coaxial_cxl_memsys/dramsim3_ini/DDR5_32GB_2ch_4800.ini", "./");\n'
 pmem_fmtstr = 'DRAMSim3_DRAM DRAM({attrs[frequency]}, "{attrs[dramsim3_config]}", "./");\n'
 
 vmem_fmtstr = 'VirtualMemory vmem({attrs[size]}, 1 << 12, {attrs[num_levels]}, 1, {attrs[minor_fault_penalty]});\n'
@@ -788,8 +788,8 @@ with open('Makefile', 'wt') as wfp:
     wfp.write('CXXFLAGS := ' + config_file.get('CXXFLAGS', '-Wall -O3') + ' -std=c++17 -g\n')
     wfp.write('CPPFLAGS := ' + config_file.get('CPPFLAGS', '') + ' -Iinc -MMD -MP -g\n')
     wfp.write('LDFLAGS := ' + config_file.get('LDFLAGS', '') + '\n')
-    wfp.write('LDLIBS := ' + config_file.get('LDLIBS', '-L/storage/home/hcoda1/4/XXXX/p-XXXX-0/hybrid_cxl_memsys/DRAMsim3 -ldramsim3') + '\n')
-    # wfp.write('LDLIBS := ' + config_file.get('LDLIBS', '-L/nethome/XXXX/DRAMsim3 -ldramsim3') + '\n')
+    #wfp.write('LDLIBS := ' + config_file.get('LDLIBS', '-L/storage/home/hcoda1/4/asaxena317/p-mqureshi4-0/hybrid_cxl_memsys/DRAMsim3 -ldramsim3') + '\n')
+    wfp.write('LDLIBS := ' + config_file.get('LDLIBS', '-L/nethome/acho44/DRAMsim3 -ldramsim3') + '\n')
     wfp.write('\n')
     wfp.write('.phony: all clean\n\n')
     wfp.write('all: ' + config_file['executable_name'] + '\n\n')

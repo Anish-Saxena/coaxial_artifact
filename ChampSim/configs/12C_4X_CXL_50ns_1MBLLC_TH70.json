@@ -1,12 +1,13 @@
 {
-    "executable_name": "bin/12C_4X_CXL_50ns",
+    "executable_name": "bin/PAM_MODE_TEST/12C_4X_CXL_50ns_1MBLLC_TH70",
     "block_size": 64,
     "page_size": 4096,
     "heartbeat_frequency": 10000000,
     "num_cores": 12,
     "CXL_MODE": 1,
-    "BASE_MEM_MODEL": 0,
-    "LDLIBS": "-L/storage/home/hcoda1/4/XXXX/p-XXXX-0/hybrid_cxl_memsys/DRAMsim3 -ldramsim3",
+    "PAM_MODE": 3, 
+    "PAM_TH": 70,
+    "LDLIBS": "-L/nethome/acho44/coaxial_AE_DL/DRAMsim3 -ldramsim3", 
     "ooo_cpu": [
         {
             "frequency": 2400,
@@ -104,6 +105,7 @@
             "branch_predictor": "hashed_perceptron",
             "btb": "basic_btb"
         },
+
         {
             "frequency": 2400,
             "ifetch_buffer_size":64,
@@ -414,7 +416,7 @@
         "wq_size": 1024,
         "pq_size": 1024,
         "mshr_size": 4096,
-        "latency": 30,
+        "latency": 20,
         "max_read": 64,
         "max_write": 64,
         "prefetch_as_load": false,
@@ -437,7 +439,7 @@
     },
 
     "physical_memory": {
-        "dramsim3_config": "/storage/home/hcoda1/4/XXXX/p-XXXX-0/hybrid_cxl_memsys/ChampSim/dramsim3_ini/DDR5_128GB_4ch_4800.ini",
+        "dramsim3_config": "/nethome/acho44/coaxial_AE/ChampSim/dramsim3_ini/DDR5_128GB_4ch_32GBDIMM_4800.ini",
         "frequency": 2400,
         "channels": 8,
         "ranks": 2,
