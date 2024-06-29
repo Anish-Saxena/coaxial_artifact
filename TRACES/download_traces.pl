@@ -5,7 +5,7 @@ use Getopt::Long;
 
 
 #CSAE# give PATH to megatools
-my $megatool_exe = "/coc/projects/acho44/testing_download_pythia_scriptsw/megatools-1.11.1.20230212-linux-x86_64/megatools";
+my $megatool_exe = "/coc/projects/SCAE/testing_download_pythia_scriptsw/megatools-1.11.1.20230212-linux-x86_64/megatools";
 my $input_file;
 my $dir=".";
 GetOptions('csv=s' => \$input_file,

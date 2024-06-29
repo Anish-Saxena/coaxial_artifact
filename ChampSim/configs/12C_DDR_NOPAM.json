@@ -439,7 +439,7 @@
     },
 
     "physical_memory": {
-        "dramsim3_config": "/nethome/acho44/coaxial_AE/ChampSim/dramsim3_ini/DDR5_32GB_1ch_4800.ini",
+        "dramsim3_config": "/nethome/SCAE/coaxial_AE/ChampSim/dramsim3_ini/DDR5_32GB_1ch_4800.ini",
         "frequency": 2400,
         "channels": 1,
         "ranks": 2,

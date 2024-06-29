@@ -8,7 +8,7 @@ import random
 parser = argparse.ArgumentParser()
 #SCAE# Change PATH to your Champsim
 parser.add_argument('--champsim_dir', type=str,
-                    default='/nethome/acho44/coaxial_AE/ChampSim/')
+                    default='/nethome/SCAE/coaxial_AE/ChampSim/')
 parser.add_argument('--out_dir', type=str, default='out_dir')
 parser.add_argument('--cfg', type=str, default='DDR')
 parser.add_argument('--tr', type=str, default='SCAEXXX') #trace

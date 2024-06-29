@@ -30,7 +30,7 @@ def run_champsim(path_to_traces, champsim_run='champsim_run.py'):
         subprocess.run(cmd2)
 
 # Example usage
-path_to_traces = '/nethome/acho44/coaxial_AE/TRACES/STREAM_TRACES/' ##SCAE replace to your trace path
+path_to_traces = '/nethome/SCAE/coaxial_AE/TRACES/STREAM_TRACES/' ##SCAE replace to your trace path
 csrunscript = 'champsim_run.py'
 run_champsim(path_to_traces, csrunscript)
 

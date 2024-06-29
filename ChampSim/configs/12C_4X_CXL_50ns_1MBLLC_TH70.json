@@ -7,7 +7,7 @@
     "CXL_MODE": 1,
     "PAM_MODE": 3, 
     "PAM_TH": 70,
-    "LDLIBS": "-L/nethome/acho44/coaxial_AE_DL/DRAMsim3 -ldramsim3", 
+    "LDLIBS": "-L/nethome/SCAE/coaxial_AE_DL/DRAMsim3 -ldramsim3", 
     "ooo_cpu": [
         {
             "frequency": 2400,
@@ -439,7 +439,7 @@
     },
 
     "physical_memory": {
-        "dramsim3_config": "/nethome/acho44/coaxial_AE/ChampSim/dramsim3_ini/DDR5_128GB_4ch_32GBDIMM_4800.ini",
+        "dramsim3_config": "/nethome/SCAE/coaxial_AE/ChampSim/dramsim3_ini/DDR5_128GB_4ch_32GBDIMM_4800.ini",
         "frequency": 2400,
         "channels": 8,
         "ranks": 2,

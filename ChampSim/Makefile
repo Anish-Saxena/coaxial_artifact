@@ -4,7 +4,7 @@ CFLAGS := -Wall -O3 -std=gnu99 -g
 CXXFLAGS := -Wall -O3 -std=c++17 -g
 CPPFLAGS :=  -Iinc -MMD -MP -g
 LDFLAGS := 
-LDLIBS := -L/nethome/acho44/coaxial_AE_DL/DRAMsim3 -ldramsim3
+LDLIBS := -L/nethome/SCAE/coaxial_AE_DL/DRAMsim3 -ldramsim3
 
 .phony: all clean
 
