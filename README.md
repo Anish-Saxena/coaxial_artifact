@@ -72,5 +72,6 @@ Update the path to DRAMSim library and the ini files in config.py
 
 # Processing the runs and plotting
 
-Processing and plotting scripts can be found in ChampSim/SCRIPTS/ Use the scripts in 'PROC_SCRIPTS' to collect the data and populate a csv file that looks like
-the inlcuded example_plot_input.csv. Use the plotting scripts in PLOTTING_SCRIPTS with the csv file as input to generate the plots.
+Processing and plotting scripts can be found in SCRIPTS. 
+## Build order and instructions to run scripts in SCRIPTS.
+## lines that need modification (PATH specification) are marked by SCAE in all files throuhgout the process 

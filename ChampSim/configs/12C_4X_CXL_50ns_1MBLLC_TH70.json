@@ -1,5 +1,5 @@
 {
-    "executable_name": "bin/PAM_MODE_TEST/12C_4X_CXL_50ns_1MBLLC_TH70",
+    "executable_name": "bin/12C_4X_CXL_50ns_1MBLLC_TH70",
     "block_size": 64,
     "page_size": 4096,
     "heartbeat_frequency": 10000000,

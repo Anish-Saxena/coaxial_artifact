@@ -3,6 +3,14 @@
   <p> ChampSim is a trace-based simulator for a microarchitecture study. You can sign up to the public mailing list by sending an empty mail to champsim+subscribe@googlegroups.com. If you have questions about how to use ChampSim, you can often receive a quicker response on the mailing list. Please reserve GitHub Issues for bugs. <p>
 </p>
 
+# Files to modify dependency paths
+
+config.py
+2 files in configs/
+
+The rest of this readme is readme taken from champsim
+
+
 # Clone ChampSim repository
 ```
 git clone https://github.com/ChampSim/ChampSim.git

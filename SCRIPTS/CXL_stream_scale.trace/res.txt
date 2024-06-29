@@ -1,0 +1,4550 @@
+fieldwidths_channel: 3
+DRAMSim3_DRAM init
+Initialized CXL memory with 4 channels
+tCXL 50 tRD 5 tWR 11
+Init LLC size 12288KB
+PAM Threshold: 106GB/s
+Init cpu0_L2C size 512KB
+Init cpu1_L2C size 512KB
+Init cpu2_L2C size 512KB
+Init cpu3_L2C size 512KB
+Init cpu4_L2C size 512KB
+Init cpu5_L2C size 512KB
+Init cpu6_L2C size 512KB
+Init cpu7_L2C size 512KB
+Init cpu8_L2C size 512KB
+Init cpu9_L2C size 512KB
+Init cpu10_L2C size 512KB
+Init cpu11_L2C size 512KB
+Init cpu0_L1D size 32KB
+Init cpu1_L1D size 32KB
+Init cpu2_L1D size 32KB
+Init cpu3_L1D size 32KB
+Init cpu4_L1D size 32KB
+Init cpu5_L1D size 32KB
+Init cpu6_L1D size 32KB
+Init cpu7_L1D size 32KB
+Init cpu8_L1D size 32KB
+Init cpu9_L1D size 32KB
+Init cpu10_L1D size 32KB
+Init cpu11_L1D size 32KB
+Init cpu0_STLB size 192KB
+Init cpu1_STLB size 192KB
+Init cpu2_STLB size 192KB
+Init cpu3_STLB size 192KB
+Init cpu4_STLB size 192KB
+Init cpu5_STLB size 192KB
+Init cpu6_STLB size 192KB
+Init cpu7_STLB size 192KB
+Init cpu8_STLB size 192KB
+Init cpu9_STLB size 192KB
+Init cpu10_STLB size 192KB
+Init cpu11_STLB size 192KB
+Init cpu0_L1I size 32KB
+Init cpu0_ITLB size 4KB
+Init cpu0_DTLB size 4KB
+Init cpu1_L1I size 32KB
+Init cpu1_ITLB size 4KB
+Init cpu1_DTLB size 4KB
+Init cpu2_L1I size 32KB
+Init cpu2_ITLB size 4KB
+Init cpu2_DTLB size 4KB
+Init cpu3_L1I size 32KB
+Init cpu3_ITLB size 4KB
+Init cpu3_DTLB size 4KB
+Init cpu4_L1I size 32KB
+Init cpu4_ITLB size 4KB
+Init cpu4_DTLB size 4KB
+Init cpu5_L1I size 32KB
+Init cpu5_ITLB size 4KB
+Init cpu5_DTLB size 4KB
+Init cpu6_L1I size 32KB
+Init cpu6_ITLB size 4KB
+Init cpu6_DTLB size 4KB
+Init cpu7_L1I size 32KB
+Init cpu7_ITLB size 4KB
+Init cpu7_DTLB size 4KB
+Init cpu8_L1I size 32KB
+Init cpu8_ITLB size 4KB
+Init cpu8_DTLB size 4KB
+Init cpu9_L1I size 32KB
+Init cpu9_ITLB size 4KB
+Init cpu9_DTLB size 4KB
+Init cpu10_L1I size 32KB
+Init cpu10_ITLB size 4KB
+Init cpu10_DTLB size 4KB
+Init cpu11_L1I size 32KB
+Init cpu11_ITLB size 4KB
+Init cpu11_DTLB size 4KB
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 1000000
+Simulation Instructions: 200000000
+Number of CPUs: 12
+
+VirtualMemory physical capacity: 137437900800 num_ppages: 33554175
+VirtualMemory page size: 4096 log2_page_size: 12
+starting with L2 parallel access: 1
+
+All CPUs run trace-0
+CPU 0 runs /nethome/acho44/coaxial_AE/TRACES/STREAM_TRACES/stream_scale.trace.xz
+CPU 1 runs /nethome/acho44/coaxial_AE/TRACES/STREAM_TRACES/stream_scale.trace.xz
+CPU 2 runs /nethome/acho44/coaxial_AE/TRACES/STREAM_TRACES/stream_scale.trace.xz
+CPU 3 runs /nethome/acho44/coaxial_AE/TRACES/STREAM_TRACES/stream_scale.trace.xz
+CPU 4 runs /nethome/acho44/coaxial_AE/TRACES/STREAM_TRACES/stream_scale.trace.xz
+CPU 5 runs /nethome/acho44/coaxial_AE/TRACES/STREAM_TRACES/stream_scale.trace.xz
+CPU 6 runs /nethome/acho44/coaxial_AE/TRACES/STREAM_TRACES/stream_scale.trace.xz
+CPU 7 runs /nethome/acho44/coaxial_AE/TRACES/STREAM_TRACES/stream_scale.trace.xz
+CPU 8 runs /nethome/acho44/coaxial_AE/TRACES/STREAM_TRACES/stream_scale.trace.xz
+CPU 9 runs /nethome/acho44/coaxial_AE/TRACES/STREAM_TRACES/stream_scale.trace.xz
+CPU 10 runs /nethome/acho44/coaxial_AE/TRACES/STREAM_TRACES/stream_scale.trace.xz
+CPU 11 runs /nethome/acho44/coaxial_AE/TRACES/STREAM_TRACES/stream_scale.trace.xz
+Basic BTB sets: 1024 ways: 8 indirect buffer size: 1536 RAS size: 32
+Basic BTB sets: 1024 ways: 8 indirect buffer size: 1536 RAS size: 32
+Basic BTB sets: 1024 ways: 8 indirect buffer size: 1536 RAS size: 32
+Basic BTB sets: 1024 ways: 8 indirect buffer size: 1536 RAS size: 32
+Basic BTB sets: 1024 ways: 8 indirect buffer size: 1536 RAS size: 32
+Basic BTB sets: 1024 ways: 8 indirect buffer size: 1536 RAS size: 32
+Basic BTB sets: 1024 ways: 8 indirect buffer size: 1536 RAS size: 32
+Basic BTB sets: 1024 ways: 8 indirect buffer size: 1536 RAS size: 32
+Basic BTB sets: 1024 ways: 8 indirect buffer size: 1536 RAS size: 32
+Basic BTB sets: 1024 ways: 8 indirect buffer size: 1536 RAS size: 32
+Basic BTB sets: 1024 ways: 8 indirect buffer size: 1536 RAS size: 32
+Basic BTB sets: 1024 ways: 8 indirect buffer size: 1536 RAS size: 32
+CPU 0 next line instruction prefetcher
+CPU 0 next line instruction prefetcher
+CPU 0 next line instruction prefetcher
+CPU 0 next line instruction prefetcher
+CPU 0 next line instruction prefetcher
+CPU 0 next line instruction prefetcher
+CPU 0 next line instruction prefetcher
+CPU 0 next line instruction prefetcher
+CPU 0 next line instruction prefetcher
+CPU 0 next line instruction prefetcher
+CPU 0 next line instruction prefetcher
+CPU 0 next line instruction prefetcher
+cpu11_L2C IP-based stride prefetcher
+cpu10_L2C IP-based stride prefetcher
+cpu9_L2C IP-based stride prefetcher
+cpu8_L2C IP-based stride prefetcher
+cpu7_L2C IP-based stride prefetcher
+cpu6_L2C IP-based stride prefetcher
+cpu5_L2C IP-based stride prefetcher
+cpu4_L2C IP-based stride prefetcher
+cpu3_L2C IP-based stride prefetcher
+cpu2_L2C IP-based stride prefetcher
+cpu1_L2C IP-based stride prefetcher
+cpu0_L2C IP-based stride prefetcher
+WARNING: The extended signature CACHE::prefetch_line(ip, base_addr, pf_addr, fill_this_level, prefetch_metadata) is deprecated.
+WARNING: Use CACHE::prefetch_line(pf_addr, fill_this_level, prefetch_metadata) instead.
+L2_PA_ratio set to: 0
+L2 Parallel Access switched to 0
+L2_PA_ratio set to: 0
+L2_PA_ratio set to: 0
+
+Warmup complete CPU 0 instructions: 1000046 cycles: 333443 (Simulation time: 0 hr 0 min 19 sec) 
+Warmup complete CPU 1 instructions: 1000094 cycles: 333443 (Simulation time: 0 hr 0 min 19 sec) 
+Warmup complete CPU 2 instructions: 1000086 cycles: 333443 (Simulation time: 0 hr 0 min 19 sec) 
+Warmup complete CPU 3 instructions: 1000006 cycles: 333443 (Simulation time: 0 hr 0 min 19 sec) 
+Warmup complete CPU 4 instructions: 1000046 cycles: 333443 (Simulation time: 0 hr 0 min 19 sec) 
+Warmup complete CPU 5 instructions: 1000046 cycles: 333443 (Simulation time: 0 hr 0 min 19 sec) 
+Warmup complete CPU 6 instructions: 1000094 cycles: 333443 (Simulation time: 0 hr 0 min 19 sec) 
+Warmup complete CPU 7 instructions: 1000046 cycles: 333443 (Simulation time: 0 hr 0 min 19 sec) 
+Warmup complete CPU 8 instructions: 1000038 cycles: 333443 (Simulation time: 0 hr 0 min 19 sec) 
+Warmup complete CPU 9 instructions: 1000046 cycles: 333443 (Simulation time: 0 hr 0 min 19 sec) 
+Warmup complete CPU 10 instructions: 1000046 cycles: 333443 (Simulation time: 0 hr 0 min 19 sec) 
+Warmup complete CPU 11 instructions: 1000038 cycles: 333443 (Simulation time: 0 hr 0 min 19 sec) 
+
+L2_PA_ratio set to: 0
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+L2 Parallel Access switched to 1
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 58, llc_miss_BW: 58
+L2_PA_ratio set to: 82
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 58, llc_miss_BW: 58
+L2_PA_ratio set to: 82
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+Heartbeat CPU 1 instructions: 10000007 cycles: 17501848 heartbeat IPC: 0.571369 cumulative IPC: 0.524214 (Simulation time: 0 hr 15 min 20 sec) 
+PAM Allow Rate: 103%
+Heartbeat CPU 2 instructions: 10000007 cycles: 17502001 heartbeat IPC: 0.571364 cumulative IPC: 0.524209 (Simulation time: 0 hr 15 min 20 sec) 
+PAM Allow Rate: 103%
+Heartbeat CPU 5 instructions: 10000007 cycles: 17563988 heartbeat IPC: 0.569347 cumulative IPC: 0.522326 (Simulation time: 0 hr 15 min 24 sec) 
+PAM Allow Rate: 103%
+Heartbeat CPU 0 instructions: 10000007 cycles: 17567175 heartbeat IPC: 0.569244 cumulative IPC: 0.522229 (Simulation time: 0 hr 15 min 24 sec) 
+PAM Allow Rate: 103%
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+Heartbeat CPU 4 instructions: 10000005 cycles: 17626863 heartbeat IPC: 0.567316 cumulative IPC: 0.520427 (Simulation time: 0 hr 15 min 27 sec) 
+PAM Allow Rate: 100%
+Heartbeat CPU 3 instructions: 10000005 cycles: 17639132 heartbeat IPC: 0.566922 cumulative IPC: 0.52006 (Simulation time: 0 hr 15 min 28 sec) 
+PAM Allow Rate: 100%
+Heartbeat CPU 6 instructions: 10000007 cycles: 17685225 heartbeat IPC: 0.565444 cumulative IPC: 0.518674 (Simulation time: 0 hr 15 min 30 sec) 
+PAM Allow Rate: 100%
+Heartbeat CPU 9 instructions: 10000007 cycles: 17689872 heartbeat IPC: 0.565296 cumulative IPC: 0.518538 (Simulation time: 0 hr 15 min 30 sec) 
+PAM Allow Rate: 100%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+Heartbeat CPU 8 instructions: 10000007 cycles: 17773380 heartbeat IPC: 0.56264 cumulative IPC: 0.516055 (Simulation time: 0 hr 15 min 35 sec) 
+PAM Allow Rate: 92%
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+Heartbeat CPU 10 instructions: 10000007 cycles: 17816337 heartbeat IPC: 0.561283 cumulative IPC: 0.514787 (Simulation time: 0 hr 15 min 37 sec) 
+PAM Allow Rate: 103%
+Heartbeat CPU 7 instructions: 10000005 cycles: 17820108 heartbeat IPC: 0.561164 cumulative IPC: 0.514676 (Simulation time: 0 hr 15 min 37 sec) 
+PAM Allow Rate: 103%
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+Heartbeat CPU 11 instructions: 10000007 cycles: 17920905 heartbeat IPC: 0.558008 cumulative IPC: 0.511726 (Simulation time: 0 hr 15 min 42 sec) 
+PAM Allow Rate: 89%
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+Heartbeat CPU 1 instructions: 20000007 cycles: 36454546 heartbeat IPC: 0.527629 cumulative IPC: 0.526006 (Simulation time: 0 hr 31 min 52 sec) 
+PAM Allow Rate: 89%
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+Heartbeat CPU 2 instructions: 20000007 cycles: 36600638 heartbeat IPC: 0.523598 cumulative IPC: 0.523887 (Simulation time: 0 hr 32 min 0 sec) 
+PAM Allow Rate: 103%
+Heartbeat CPU 5 instructions: 20000007 cycles: 36686040 heartbeat IPC: 0.522956 cumulative IPC: 0.522658 (Simulation time: 0 hr 32 min 4 sec) 
+PAM Allow Rate: 103%
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+Heartbeat CPU 0 instructions: 20000005 cycles: 36725146 heartbeat IPC: 0.521976 cumulative IPC: 0.522096 (Simulation time: 0 hr 32 min 6 sec) 
+PAM Allow Rate: 96%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+Heartbeat CPU 4 instructions: 20000007 cycles: 36853594 heartbeat IPC: 0.520109 cumulative IPC: 0.52026 (Simulation time: 0 hr 32 min 13 sec) 
+PAM Allow Rate: 92%
+Heartbeat CPU 3 instructions: 20000005 cycles: 36883540 heartbeat IPC: 0.519631 cumulative IPC: 0.519834 (Simulation time: 0 hr 32 min 14 sec) 
+PAM Allow Rate: 92%
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+Heartbeat CPU 9 instructions: 20000007 cycles: 36924663 heartbeat IPC: 0.519891 cumulative IPC: 0.519249 (Simulation time: 0 hr 32 min 17 sec) 
+PAM Allow Rate: 89%
+Heartbeat CPU 6 instructions: 20000007 cycles: 36928934 heartbeat IPC: 0.51965 cumulative IPC: 0.519187 (Simulation time: 0 hr 32 min 17 sec) 
+PAM Allow Rate: 89%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+Heartbeat CPU 8 instructions: 20000007 cycles: 37115760 heartbeat IPC: 0.516999 cumulative IPC: 0.516552 (Simulation time: 0 hr 32 min 27 sec) 
+PAM Allow Rate: 92%
+Heartbeat CPU 10 instructions: 20000007 cycles: 37164206 heartbeat IPC: 0.516853 cumulative IPC: 0.515872 (Simulation time: 0 hr 32 min 29 sec) 
+PAM Allow Rate: 92%
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+Heartbeat CPU 7 instructions: 20000007 cycles: 37219549 heartbeat IPC: 0.515479 cumulative IPC: 0.515098 (Simulation time: 0 hr 32 min 32 sec) 
+PAM Allow Rate: 100%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+Heartbeat CPU 11 instructions: 20000007 cycles: 37482576 heartbeat IPC: 0.511204 cumulative IPC: 0.511451 (Simulation time: 0 hr 32 min 46 sec) 
+PAM Allow Rate: 100%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 51, llc_miss_BW: 51
+L2_PA_ratio set to: 107
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+Heartbeat CPU 1 instructions: 30000007 cycles: 55525237 heartbeat IPC: 0.524365 cumulative IPC: 0.525439 (Simulation time: 0 hr 48 min 30 sec) 
+PAM Allow Rate: 100%
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+Heartbeat CPU 2 instructions: 30000007 cycles: 55771674 heartbeat IPC: 0.52162 cumulative IPC: 0.523103 (Simulation time: 0 hr 48 min 43 sec) 
+PAM Allow Rate: 96%
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+Heartbeat CPU 5 instructions: 30000007 cycles: 55851152 heartbeat IPC: 0.521781 cumulative IPC: 0.522355 (Simulation time: 0 hr 48 min 47 sec) 
+PAM Allow Rate: 96%
+Heartbeat CPU 0 instructions: 30000005 cycles: 55886271 heartbeat IPC: 0.52189 cumulative IPC: 0.522025 (Simulation time: 0 hr 48 min 49 sec) 
+PAM Allow Rate: 96%
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+Heartbeat CPU 3 instructions: 30000007 cycles: 56074350 heartbeat IPC: 0.521083 cumulative IPC: 0.520264 (Simulation time: 0 hr 48 min 59 sec) 
+PAM Allow Rate: 96%
+Heartbeat CPU 9 instructions: 30000005 cycles: 56088767 heartbeat IPC: 0.521809 cumulative IPC: 0.520129 (Simulation time: 0 hr 49 min 0 sec) 
+PAM Allow Rate: 96%
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+Heartbeat CPU 4 instructions: 30000007 cycles: 56126696 heartbeat IPC: 0.518858 cumulative IPC: 0.519775 (Simulation time: 0 hr 49 min 2 sec) 
+PAM Allow Rate: 100%
+Heartbeat CPU 6 instructions: 30000007 cycles: 56196566 heartbeat IPC: 0.519005 cumulative IPC: 0.519124 (Simulation time: 0 hr 49 min 6 sec) 
+PAM Allow Rate: 100%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+Heartbeat CPU 10 instructions: 30000007 cycles: 56501514 heartbeat IPC: 0.517135 cumulative IPC: 0.516307 (Simulation time: 0 hr 49 min 22 sec) 
+PAM Allow Rate: 85%
+Heartbeat CPU 8 instructions: 30000007 cycles: 56538077 heartbeat IPC: 0.514872 cumulative IPC: 0.515971 (Simulation time: 0 hr 49 min 24 sec) 
+PAM Allow Rate: 85%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+Heartbeat CPU 7 instructions: 30000007 cycles: 56639554 heartbeat IPC: 0.514933 cumulative IPC: 0.515041 (Simulation time: 0 hr 49 min 29 sec) 
+PAM Allow Rate: 92%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+Heartbeat CPU 11 instructions: 30000007 cycles: 56973204 heartbeat IPC: 0.513067 cumulative IPC: 0.512007 (Simulation time: 0 hr 49 min 46 sec) 
+PAM Allow Rate: 92%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 51, llc_miss_BW: 51
+L2_PA_ratio set to: 107
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+Heartbeat CPU 1 instructions: 40000007 cycles: 74580286 heartbeat IPC: 0.524795 cumulative IPC: 0.525274 (Simulation time: 1 hr 5 min 9 sec) 
+PAM Allow Rate: 96%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+Heartbeat CPU 2 instructions: 40000007 cycles: 74896058 heartbeat IPC: 0.522893 cumulative IPC: 0.523049 (Simulation time: 1 hr 5 min 26 sec) 
+PAM Allow Rate: 96%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+Heartbeat CPU 5 instructions: 40000007 cycles: 74977609 heartbeat IPC: 0.522836 cumulative IPC: 0.522478 (Simulation time: 1 hr 5 min 30 sec) 
+PAM Allow Rate: 92%
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+Heartbeat CPU 0 instructions: 40000007 cycles: 75014121 heartbeat IPC: 0.522798 cumulative IPC: 0.522223 (Simulation time: 1 hr 5 min 32 sec) 
+PAM Allow Rate: 96%
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+Heartbeat CPU 9 instructions: 40000007 cycles: 75337281 heartbeat IPC: 0.519521 cumulative IPC: 0.519973 (Simulation time: 1 hr 5 min 49 sec) 
+PAM Allow Rate: 89%
+Heartbeat CPU 3 instructions: 40000007 cycles: 75351595 heartbeat IPC: 0.518746 cumulative IPC: 0.519874 (Simulation time: 1 hr 5 min 49 sec) 
+PAM Allow Rate: 89%
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+Heartbeat CPU 6 instructions: 40000007 cycles: 75481009 heartbeat IPC: 0.518553 cumulative IPC: 0.518978 (Simulation time: 1 hr 5 min 56 sec) 
+PAM Allow Rate: 100%
+Heartbeat CPU 4 instructions: 40000005 cycles: 75491610 heartbeat IPC: 0.516398 cumulative IPC: 0.518905 (Simulation time: 1 hr 5 min 57 sec) 
+PAM Allow Rate: 100%
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 51, llc_miss_BW: 51
+L2_PA_ratio set to: 107
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+Heartbeat CPU 8 instructions: 40000007 cycles: 75996327 heartbeat IPC: 0.513921 cumulative IPC: 0.515444 (Simulation time: 1 hr 6 min 23 sec) 
+PAM Allow Rate: 89%
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+Heartbeat CPU 10 instructions: 40000007 cycles: 76024011 heartbeat IPC: 0.51223 cumulative IPC: 0.515255 (Simulation time: 1 hr 6 min 25 sec) 
+PAM Allow Rate: 96%
+Heartbeat CPU 7 instructions: 40000007 cycles: 76031150 heartbeat IPC: 0.515687 cumulative IPC: 0.515207 (Simulation time: 1 hr 6 min 25 sec) 
+PAM Allow Rate: 96%
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+Heartbeat CPU 11 instructions: 40000005 cycles: 76502065 heartbeat IPC: 0.512063 cumulative IPC: 0.512021 (Simulation time: 1 hr 6 min 50 sec) 
+PAM Allow Rate: 96%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+Heartbeat CPU 1 instructions: 50000007 cycles: 93636529 heartbeat IPC: 0.524762 cumulative IPC: 0.525169 (Simulation time: 1 hr 21 min 47 sec) 
+PAM Allow Rate: 89%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+Heartbeat CPU 2 instructions: 50000003 cycles: 94055548 heartbeat IPC: 0.521934 cumulative IPC: 0.522821 (Simulation time: 1 hr 22 min 9 sec) 
+PAM Allow Rate: 92%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+Heartbeat CPU 0 instructions: 50000005 cycles: 94103625 heartbeat IPC: 0.523848 cumulative IPC: 0.522554 (Simulation time: 1 hr 22 min 12 sec) 
+PAM Allow Rate: 92%
+Heartbeat CPU 5 instructions: 50000007 cycles: 94137312 heartbeat IPC: 0.521929 cumulative IPC: 0.522366 (Simulation time: 1 hr 22 min 14 sec) 
+PAM Allow Rate: 92%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+Heartbeat CPU 9 instructions: 50000007 cycles: 94606196 heartbeat IPC: 0.518971 cumulative IPC: 0.519768 (Simulation time: 1 hr 22 min 38 sec) 
+PAM Allow Rate: 92%
+Heartbeat CPU 3 instructions: 50000007 cycles: 94653372 heartbeat IPC: 0.518087 cumulative IPC: 0.519508 (Simulation time: 1 hr 22 min 40 sec) 
+PAM Allow Rate: 92%
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+Heartbeat CPU 6 instructions: 50000005 cycles: 94747607 heartbeat IPC: 0.519033 cumulative IPC: 0.518989 (Simulation time: 1 hr 22 min 45 sec) 
+PAM Allow Rate: 96%
+Heartbeat CPU 4 instructions: 50000007 cycles: 94762186 heartbeat IPC: 0.518926 cumulative IPC: 0.518909 (Simulation time: 1 hr 22 min 46 sec) 
+PAM Allow Rate: 96%
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+Heartbeat CPU 10 instructions: 50000007 cycles: 95345151 heartbeat IPC: 0.517568 cumulative IPC: 0.515725 (Simulation time: 1 hr 23 min 17 sec) 
+PAM Allow Rate: 96%
+Heartbeat CPU 8 instructions: 50000005 cycles: 95365109 heartbeat IPC: 0.516295 cumulative IPC: 0.515617 (Simulation time: 1 hr 23 min 18 sec) 
+PAM Allow Rate: 96%
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+Heartbeat CPU 7 instructions: 50000007 cycles: 95431407 heartbeat IPC: 0.515457 cumulative IPC: 0.515258 (Simulation time: 1 hr 23 min 21 sec) 
+PAM Allow Rate: 89%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+Heartbeat CPU 11 instructions: 50000007 cycles: 96059480 heartbeat IPC: 0.511315 cumulative IPC: 0.511877 (Simulation time: 1 hr 23 min 54 sec) 
+PAM Allow Rate: 92%
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 51, llc_miss_BW: 51
+L2_PA_ratio set to: 107
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 58, llc_miss_BW: 58
+L2_PA_ratio set to: 82
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 51, llc_miss_BW: 51
+L2_PA_ratio set to: 107
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 51, llc_miss_BW: 51
+L2_PA_ratio set to: 107
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 51, llc_miss_BW: 51
+L2_PA_ratio set to: 107
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+Heartbeat CPU 1 instructions: 60000007 cycles: 112618830 heartbeat IPC: 0.526807 cumulative IPC: 0.525446 (Simulation time: 1 hr 38 min 21 sec) 
+PAM Allow Rate: 89%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+Heartbeat CPU 2 instructions: 60000007 cycles: 113188576 heartbeat IPC: 0.522657 cumulative IPC: 0.522793 (Simulation time: 1 hr 38 min 51 sec) 
+PAM Allow Rate: 96%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+Heartbeat CPU 5 instructions: 60000007 cycles: 113206501 heartbeat IPC: 0.524406 cumulative IPC: 0.522711 (Simulation time: 1 hr 38 min 52 sec) 
+PAM Allow Rate: 92%
+Heartbeat CPU 0 instructions: 60000007 cycles: 113222231 heartbeat IPC: 0.523051 cumulative IPC: 0.522638 (Simulation time: 1 hr 38 min 53 sec) 
+PAM Allow Rate: 92%
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+Heartbeat CPU 9 instructions: 60000007 cycles: 113829705 heartbeat IPC: 0.520196 cumulative IPC: 0.519841 (Simulation time: 1 hr 39 min 25 sec) 
+PAM Allow Rate: 92%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+Heartbeat CPU 6 instructions: 60000007 cycles: 113980702 heartbeat IPC: 0.519937 cumulative IPC: 0.519149 (Simulation time: 1 hr 39 min 33 sec) 
+PAM Allow Rate: 92%
+Heartbeat CPU 3 instructions: 60000007 cycles: 113991066 heartbeat IPC: 0.517125 cumulative IPC: 0.519103 (Simulation time: 1 hr 39 min 33 sec) 
+PAM Allow Rate: 92%
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+Heartbeat CPU 4 instructions: 60000007 cycles: 114001954 heartbeat IPC: 0.519757 cumulative IPC: 0.519053 (Simulation time: 1 hr 39 min 34 sec) 
+PAM Allow Rate: 96%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+Heartbeat CPU 10 instructions: 60000007 cycles: 114706712 heartbeat IPC: 0.516487 cumulative IPC: 0.515854 (Simulation time: 1 hr 40 min 11 sec) 
+PAM Allow Rate: 85%
+Heartbeat CPU 7 instructions: 60000007 cycles: 114714468 heartbeat IPC: 0.51859 cumulative IPC: 0.515819 (Simulation time: 1 hr 40 min 12 sec) 
+PAM Allow Rate: 85%
+Heartbeat CPU 8 instructions: 60000007 cycles: 114749899 heartbeat IPC: 0.515868 cumulative IPC: 0.51566 (Simulation time: 1 hr 40 min 13 sec) 
+PAM Allow Rate: 85%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+Heartbeat CPU 11 instructions: 60000007 cycles: 115635541 heartbeat IPC: 0.510828 cumulative IPC: 0.511699 (Simulation time: 1 hr 41 min 0 sec) 
+PAM Allow Rate: 100%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 58, llc_miss_BW: 58
+L2_PA_ratio set to: 82
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+Heartbeat CPU 1 instructions: 70000007 cycles: 131627257 heartbeat IPC: 0.526082 cumulative IPC: 0.525538 (Simulation time: 1 hr 54 min 57 sec) 
+PAM Allow Rate: 92%
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+Heartbeat CPU 2 instructions: 70000007 cycles: 132298414 heartbeat IPC: 0.523291 cumulative IPC: 0.522865 (Simulation time: 1 hr 55 min 33 sec) 
+PAM Allow Rate: 100%
+Heartbeat CPU 5 instructions: 70000007 cycles: 132298834 heartbeat IPC: 0.52377 cumulative IPC: 0.522864 (Simulation time: 1 hr 55 min 33 sec) 
+PAM Allow Rate: 100%
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+Heartbeat CPU 0 instructions: 70000007 cycles: 132308851 heartbeat IPC: 0.523927 cumulative IPC: 0.522824 (Simulation time: 1 hr 55 min 33 sec) 
+PAM Allow Rate: 96%
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+Heartbeat CPU 9 instructions: 70000007 cycles: 133039361 heartbeat IPC: 0.520572 cumulative IPC: 0.519946 (Simulation time: 1 hr 56 min 12 sec) 
+PAM Allow Rate: 96%
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+Heartbeat CPU 3 instructions: 70000007 cycles: 133265271 heartbeat IPC: 0.518828 cumulative IPC: 0.519063 (Simulation time: 1 hr 56 min 23 sec) 
+PAM Allow Rate: 89%
+Heartbeat CPU 4 instructions: 70000007 cycles: 133281311 heartbeat IPC: 0.51869 cumulative IPC: 0.519 (Simulation time: 1 hr 56 min 24 sec) 
+PAM Allow Rate: 89%
+Heartbeat CPU 6 instructions: 70000007 cycles: 133299121 heartbeat IPC: 0.517641 cumulative IPC: 0.51893 (Simulation time: 1 hr 56 min 25 sec) 
+PAM Allow Rate: 89%
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+Heartbeat CPU 7 instructions: 70000007 cycles: 134108928 heartbeat IPC: 0.515611 cumulative IPC: 0.515789 (Simulation time: 1 hr 57 min 8 sec) 
+PAM Allow Rate: 92%
+Heartbeat CPU 8 instructions: 70000007 cycles: 134146574 heartbeat IPC: 0.515552 cumulative IPC: 0.515644 (Simulation time: 1 hr 57 min 10 sec) 
+PAM Allow Rate: 92%
+Heartbeat CPU 10 instructions: 70000007 cycles: 134169667 heartbeat IPC: 0.513797 cumulative IPC: 0.515555 (Simulation time: 1 hr 57 min 11 sec) 
+PAM Allow Rate: 92%
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+Heartbeat CPU 11 instructions: 70000007 cycles: 135098150 heartbeat IPC: 0.513806 cumulative IPC: 0.512003 (Simulation time: 1 hr 58 min 0 sec) 
+PAM Allow Rate: 96%
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 54
+L2_PA_ratio set to: 94
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 58, llc_miss_BW: 58
+L2_PA_ratio set to: 82
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+Heartbeat CPU 1 instructions: 80000007 cycles: 150644938 heartbeat IPC: 0.525826 cumulative IPC: 0.525575 (Simulation time: 2 hr 11 min 39 sec) 
+PAM Allow Rate: 96%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+Heartbeat CPU 2 instructions: 80000007 cycles: 151405896 heartbeat IPC: 0.523355 cumulative IPC: 0.522927 (Simulation time: 2 hr 12 min 19 sec) 
+PAM Allow Rate: 85%
+Heartbeat CPU 0 instructions: 80000007 cycles: 151471366 heartbeat IPC: 0.521852 cumulative IPC: 0.522701 (Simulation time: 2 hr 12 min 22 sec) 
+PAM Allow Rate: 85%
+Heartbeat CPU 5 instructions: 80000007 cycles: 151494443 heartbeat IPC: 0.520952 cumulative IPC: 0.522621 (Simulation time: 2 hr 12 min 23 sec) 
+PAM Allow Rate: 85%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+Heartbeat CPU 9 instructions: 80000007 cycles: 152293304 heartbeat IPC: 0.519374 cumulative IPC: 0.519874 (Simulation time: 2 hr 13 min 5 sec) 
+PAM Allow Rate: 89%
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+Heartbeat CPU 3 instructions: 80000007 cycles: 152496630 heartbeat IPC: 0.519984 cumulative IPC: 0.519179 (Simulation time: 2 hr 13 min 16 sec) 
+PAM Allow Rate: 103%
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+Heartbeat CPU 4 instructions: 80000007 cycles: 152570215 heartbeat IPC: 0.518433 cumulative IPC: 0.518928 (Simulation time: 2 hr 13 min 20 sec) 
+PAM Allow Rate: 89%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+Heartbeat CPU 6 instructions: 80000007 cycles: 152636008 heartbeat IPC: 0.517146 cumulative IPC: 0.518704 (Simulation time: 2 hr 13 min 23 sec) 
+PAM Allow Rate: 92%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+Heartbeat CPU 7 instructions: 80000007 cycles: 153450014 heartbeat IPC: 0.517034 cumulative IPC: 0.515947 (Simulation time: 2 hr 14 min 6 sec) 
+PAM Allow Rate: 96%
+Heartbeat CPU 8 instructions: 80000003 cycles: 153493672 heartbeat IPC: 0.516873 cumulative IPC: 0.515799 (Simulation time: 2 hr 14 min 8 sec) 
+PAM Allow Rate: 96%
+Heartbeat CPU 10 instructions: 80000007 cycles: 153493912 heartbeat IPC: 0.517485 cumulative IPC: 0.515799 (Simulation time: 2 hr 14 min 8 sec) 
+PAM Allow Rate: 96%
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+Heartbeat CPU 11 instructions: 80000007 cycles: 154750736 heartbeat IPC: 0.508839 cumulative IPC: 0.511601 (Simulation time: 2 hr 15 min 14 sec) 
+PAM Allow Rate: 96%
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+Heartbeat CPU 1 instructions: 90000005 cycles: 169705431 heartbeat IPC: 0.524645 cumulative IPC: 0.52547 (Simulation time: 2 hr 28 min 18 sec) 
+PAM Allow Rate: 100%
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+Heartbeat CPU 2 instructions: 90000007 cycles: 170476438 heartbeat IPC: 0.524369 cumulative IPC: 0.523089 (Simulation time: 2 hr 28 min 58 sec) 
+PAM Allow Rate: 89%
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+Heartbeat CPU 0 instructions: 90000005 cycles: 170584485 heartbeat IPC: 0.523201 cumulative IPC: 0.522757 (Simulation time: 2 hr 29 min 4 sec) 
+PAM Allow Rate: 100%
+Heartbeat CPU 5 instructions: 90000007 cycles: 170598792 heartbeat IPC: 0.523441 cumulative IPC: 0.522713 (Simulation time: 2 hr 29 min 5 sec) 
+PAM Allow Rate: 100%
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 58, llc_miss_BW: 58
+L2_PA_ratio set to: 82
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 51, llc_miss_BW: 51
+L2_PA_ratio set to: 107
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+Heartbeat CPU 9 instructions: 90000005 cycles: 171511049 heartbeat IPC: 0.520352 cumulative IPC: 0.519928 (Simulation time: 2 hr 29 min 53 sec) 
+PAM Allow Rate: 92%
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 58, llc_miss_BW: 58
+L2_PA_ratio set to: 82
+Heartbeat CPU 4 instructions: 90000007 cycles: 171745100 heartbeat IPC: 0.521515 cumulative IPC: 0.519218 (Simulation time: 2 hr 30 min 5 sec) 
+PAM Allow Rate: 82%
+Heartbeat CPU 3 instructions: 90000007 cycles: 171768795 heartbeat IPC: 0.518883 cumulative IPC: 0.519146 (Simulation time: 2 hr 30 min 6 sec) 
+PAM Allow Rate: 82%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+Heartbeat CPU 6 instructions: 90000005 cycles: 171874954 heartbeat IPC: 0.519779 cumulative IPC: 0.518824 (Simulation time: 2 hr 30 min 12 sec) 
+PAM Allow Rate: 92%
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+Heartbeat CPU 7 instructions: 90000005 cycles: 172836571 heartbeat IPC: 0.515821 cumulative IPC: 0.515932 (Simulation time: 2 hr 31 min 2 sec) 
+PAM Allow Rate: 100%
+Heartbeat CPU 8 instructions: 90000007 cycles: 172869936 heartbeat IPC: 0.516096 cumulative IPC: 0.515833 (Simulation time: 2 hr 31 min 4 sec) 
+PAM Allow Rate: 100%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+Heartbeat CPU 10 instructions: 90000007 cycles: 172937785 heartbeat IPC: 0.514301 cumulative IPC: 0.51563 (Simulation time: 2 hr 31 min 7 sec) 
+PAM Allow Rate: 92%
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+Heartbeat CPU 11 instructions: 90000007 cycles: 174319963 heartbeat IPC: 0.511006 cumulative IPC: 0.511534 (Simulation time: 2 hr 32 min 20 sec) 
+PAM Allow Rate: 89%
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 58, llc_miss_BW: 58
+L2_PA_ratio set to: 82
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+Heartbeat CPU 1 instructions: 100000007 cycles: 188724504 heartbeat IPC: 0.525788 cumulative IPC: 0.525502 (Simulation time: 2 hr 44 min 53 sec) 
+PAM Allow Rate: 92%
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+Heartbeat CPU 2 instructions: 100000005 cycles: 189576746 heartbeat IPC: 0.523552 cumulative IPC: 0.523136 (Simulation time: 2 hr 45 min 37 sec) 
+PAM Allow Rate: 92%
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+Heartbeat CPU 5 instructions: 100000007 cycles: 189687836 heartbeat IPC: 0.523861 cumulative IPC: 0.522829 (Simulation time: 2 hr 45 min 43 sec) 
+PAM Allow Rate: 100%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+Heartbeat CPU 0 instructions: 100000007 cycles: 189719673 heartbeat IPC: 0.522598 cumulative IPC: 0.522741 (Simulation time: 2 hr 45 min 45 sec) 
+PAM Allow Rate: 92%
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+Heartbeat CPU 9 instructions: 100000007 cycles: 190656645 heartbeat IPC: 0.522313 cumulative IPC: 0.520168 (Simulation time: 2 hr 46 min 34 sec) 
+PAM Allow Rate: 96%
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+Heartbeat CPU 4 instructions: 100000007 cycles: 190993996 heartbeat IPC: 0.51951 cumulative IPC: 0.519247 (Simulation time: 2 hr 46 min 51 sec) 
+PAM Allow Rate: 100%
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+Heartbeat CPU 3 instructions: 100000007 cycles: 191005865 heartbeat IPC: 0.51983 cumulative IPC: 0.519215 (Simulation time: 2 hr 46 min 52 sec) 
+PAM Allow Rate: 96%
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+Heartbeat CPU 6 instructions: 100000007 cycles: 191147798 heartbeat IPC: 0.518865 cumulative IPC: 0.518828 (Simulation time: 2 hr 47 min 0 sec) 
+PAM Allow Rate: 85%
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+Heartbeat CPU 8 instructions: 100000007 cycles: 192222262 heartbeat IPC: 0.516734 cumulative IPC: 0.515924 (Simulation time: 2 hr 47 min 56 sec) 
+PAM Allow Rate: 89%
+Heartbeat CPU 7 instructions: 100000007 cycles: 192222824 heartbeat IPC: 0.51583 cumulative IPC: 0.515922 (Simulation time: 2 hr 47 min 56 sec) 
+PAM Allow Rate: 89%
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+Heartbeat CPU 10 instructions: 100000007 cycles: 192332580 heartbeat IPC: 0.515602 cumulative IPC: 0.515627 (Simulation time: 2 hr 48 min 2 sec) 
+PAM Allow Rate: 85%
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+Heartbeat CPU 11 instructions: 100000007 cycles: 193867290 heartbeat IPC: 0.511579 cumulative IPC: 0.511538 (Simulation time: 2 hr 49 min 22 sec) 
+PAM Allow Rate: 96%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 56, llc_miss_BW: 56
+L2_PA_ratio set to: 89
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 57, llc_miss_BW: 57
+L2_PA_ratio set to: 85
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 54, llc_miss_BW: 54
+L2_PA_ratio set to: 96
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
+TH_L2PA: 106, l2miss_BW: 53, llc_miss_BW: 53
+L2_PA_ratio set to: 100
+TH_L2PA: 106, l2miss_BW: 52, llc_miss_BW: 52
+L2_PA_ratio set to: 103
+Heartbeat CPU 1 instructions: 110000007 cycles: 207772003 heartbeat IPC: 0.525003 cumulative IPC: 0.525456 (Simulation time: 3 hr 1 min 30 sec) 
+PAM Allow Rate: 103%
+TH_L2PA: 106, l2miss_BW: 55, llc_miss_BW: 55
+L2_PA_ratio set to: 92
