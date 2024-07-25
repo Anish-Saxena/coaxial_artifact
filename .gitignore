@@ -27,7 +27,7 @@ DRAMsim3/.gitignore
 DRAMsim3/.gitmodules
 *.out
 *.err
-*.xz
 DDR5_baseline.json
 DDR5_baseline.txt
 DDR5_baselineepoch.json
+STREAM_TRACES/
